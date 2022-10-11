@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-application" />
+        <module name="finance-application-service" />
+        <module name="common-domain" />
+        <module name="finance-domain-core" />
+        <module name="finance-dataaccess" />
+        <module name="finance-container" />
+        <module name="finance-application" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="finnance-domain-core" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="" />
+      <module name="common-application" options="-parameters" />
+      <module name="common-domain" options="-parameters" />
+      <module name="finance-application" options="-parameters" />
+      <module name="finance-application-service" options="-parameters" />
+      <module name="finance-container" options="-parameters" />
+      <module name="finance-dataaccess" options="-parameters" />
+      <module name="finance-domain" options="" />
+      <module name="finance-domain-core" options="-parameters" />
+      <module name="finance-service" options="" />
+      <module name="finnance-domain-core" options="-parameters" />
+      <module name="personal-finances" options="" />
+    </option>
+  </component>
+</project>
